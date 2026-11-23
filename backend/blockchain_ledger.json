@@ -1,0 +1,189 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1700000000.0,
+    "transactions": [
+      {
+        "type": "GENESIS",
+        "issuer": "0x0000000000000000000000000000000000000000",
+        "credential_id": "GENESIS-BLOCK",
+        "credential_hash": "2d4e19b0ae321fa0be3c7524641a664f03fe6d6dc35f2842ed3160cbe6ca6eff",
+        "timestamp": 1700000000.0
+      }
+    ],
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 0,
+    "hash": "faad23e2a6afbe142463286f4249c1883c81261f9bc537f9544d1858f58491da"
+  },
+  {
+    "index": 1,
+    "timestamp": 1789997862.5633512,
+    "transactions": [
+      {
+        "tx_id": "0xbde43ea33aad4ab903bc278ab4e271e49461aa0f86ce4fd74eb9cbce53ef7d3a",
+        "credential_id": "CRED-2026-EDU-8492",
+        "student_id": 1,
+        "title": "Verified Skill Assessment: Python & Machine Learning",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "db5f82b8dd38234265c1a62252dd9852cd77077fc4adc8e7b782d877d9963f15",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1789997862.5633512
+      }
+    ],
+    "previous_hash": "faad23e2a6afbe142463286f4249c1883c81261f9bc537f9544d1858f58491da",
+    "nonce": 72,
+    "hash": "0014ac891e4766ac962e694564a63deeaa430282f4c9f8e48940b1e8797c4ba9"
+  },
+  {
+    "index": 2,
+    "timestamp": 1789999224.1497092,
+    "transactions": [
+      {
+        "tx_id": "0x6e373d7360767aefd61a2f1c156b117b5675feebe7b23f5e8ce134dd57c37cb1",
+        "credential_id": "TEST-CRED-9999",
+        "student_id": 1,
+        "title": "Test Solidity Certificate",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "41ff9d4f28ab21e582b9235c84305e2a6fecd5f227ea7a8c719620890324fea5",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1789999224.1497092
+      }
+    ],
+    "previous_hash": "0014ac891e4766ac962e694564a63deeaa430282f4c9f8e48940b1e8797c4ba9",
+    "nonce": 440,
+    "hash": "007a61ee75db3305550bef5ab7feca4068bd6851b4a6fdd73ec89cce3285d572"
+  },
+  {
+    "index": 3,
+    "timestamp": 1789999255.4997475,
+    "transactions": [
+      {
+        "tx_id": "0x3992e8c8c3d5bd0dcf9cfef27e15ac17ad454fa7b2a353ef150e929cb5c4d773",
+        "credential_id": "TEST-CRED-9999",
+        "student_id": 1,
+        "title": "Test Solidity Certificate",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "41ff9d4f28ab21e582b9235c84305e2a6fecd5f227ea7a8c719620890324fea5",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1789999255.4997475
+      }
+    ],
+    "previous_hash": "007a61ee75db3305550bef5ab7feca4068bd6851b4a6fdd73ec89cce3285d572",
+    "nonce": 555,
+    "hash": "0015459d6506ce6dcf74ed2564ecef7b31ffbbae5b56b50228d299c3bcb906ee"
+  },
+  {
+    "index": 4,
+    "timestamp": 1789999295.7180195,
+    "transactions": [
+      {
+        "tx_id": "0xefc20ea62c24ba5416a6f38422c32ec8dc049886d542898886b5ece59e678460",
+        "credential_id": "TEST-CRED-9999",
+        "student_id": 1,
+        "title": "Test Solidity Certificate",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "41ff9d4f28ab21e582b9235c84305e2a6fecd5f227ea7a8c719620890324fea5",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1789999295.7180195
+      }
+    ],
+    "previous_hash": "0015459d6506ce6dcf74ed2564ecef7b31ffbbae5b56b50228d299c3bcb906ee",
+    "nonce": 1310,
+    "hash": "00a1970243ca73baa2e802bd5c355b40b6f9e7a3a2eeac69adb176f2d153d962"
+  },
+  {
+    "index": 5,
+    "timestamp": 1789999317.1883507,
+    "transactions": [
+      {
+        "tx_id": "0x3d2a68c9f6c74cf6a314a143d19f22336065bb21a9cf915ce05b91e47645f81a",
+        "credential_id": "TEST-CRED-9999",
+        "student_id": 1,
+        "title": "Test Solidity Certificate",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "41ff9d4f28ab21e582b9235c84305e2a6fecd5f227ea7a8c719620890324fea5",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1789999317.1883507
+      }
+    ],
+    "previous_hash": "00a1970243ca73baa2e802bd5c355b40b6f9e7a3a2eeac69adb176f2d153d962",
+    "nonce": 314,
+    "hash": "00e0056d975dfcee47f074043696a0d1a0d04216bf29915b9c83f1c90c9dff8f"
+  },
+  {
+    "index": 6,
+    "timestamp": 1789999386.2721267,
+    "transactions": [
+      {
+        "tx_id": "0x3846ac3b731f93c6f6d4f3277ce4b84cddabee657893b383e50dbbf77339db10",
+        "credential_id": "TEST-CRED-9999",
+        "student_id": 1,
+        "title": "Test Solidity Certificate",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "41ff9d4f28ab21e582b9235c84305e2a6fecd5f227ea7a8c719620890324fea5",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1789999386.2721267
+      }
+    ],
+    "previous_hash": "00e0056d975dfcee47f074043696a0d1a0d04216bf29915b9c83f1c90c9dff8f",
+    "nonce": 153,
+    "hash": "00d83d64c816459975f84269a981ef58a8d61f2f143ef175b74d93beb8f0199c"
+  },
+  {
+    "index": 7,
+    "timestamp": 1790013485.4437673,
+    "transactions": [
+      {
+        "tx_id": "0x3d5af2d3d5dbb2390355cb4f68da647e1e29e10a289a93263e4c28c371d9214a",
+        "credential_id": "TEST-CRED-9999",
+        "student_id": 1,
+        "title": "Test Solidity Certificate",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "41ff9d4f28ab21e582b9235c84305e2a6fecd5f227ea7a8c719620890324fea5",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1790013485.4437673
+      }
+    ],
+    "previous_hash": "00d83d64c816459975f84269a981ef58a8d61f2f143ef175b74d93beb8f0199c",
+    "nonce": 101,
+    "hash": "002fbd2ed605f043436fa236e5276344616e145e8545d93981124ce96c76f5ae"
+  },
+  {
+    "index": 8,
+    "timestamp": 1790155515.360196,
+    "transactions": [
+      {
+        "tx_id": "0x2a486ea1500a8ae8440ba55008be3dfa01f81fd467932c4e255bd67a4cbdc95c",
+        "credential_id": "CRED-2026-A51A7B31",
+        "student_id": 6,
+        "title": "Advanced Python & Machine Learning Competency",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "3d10a6e2c60cc48448e8ad8cd623f48cd1d42bab46ea86bdd63e0d2573193156",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1790155515.360196
+      }
+    ],
+    "previous_hash": "002fbd2ed605f043436fa236e5276344616e145e8545d93981124ce96c76f5ae",
+    "nonce": 173,
+    "hash": "00b4abf8d42821ef55a8fc4105f5de3b5bec1c87bd632c50c79de74b84c932f6"
+  },
+  {
+    "index": 9,
+    "timestamp": 1790156741.4343357,
+    "transactions": [
+      {
+        "tx_id": "0x753189670931d889c4d3d274ed3e06e7e777e29519912b6c1672ba4291198864",
+        "credential_id": "TEST-CRED-9999",
+        "student_id": 1,
+        "title": "Test Solidity Certificate",
+        "credential_type": "Skill Assessment Certificate",
+        "credential_hash": "41ff9d4f28ab21e582b9235c84305e2a6fecd5f227ea7a8c719620890324fea5",
+        "issuer": "0x71C...EDUGUIDE_ROOT_CA",
+        "timestamp": 1790156741.4343357
+      }
+    ],
+    "previous_hash": "00b4abf8d42821ef55a8fc4105f5de3b5bec1c87bd632c50c79de74b84c932f6",
+    "nonce": 644,
+    "hash": "00523706322bb77bc69520708798493fd0088d711b84e53b39dea42a872f2e8d"
+  }
+]

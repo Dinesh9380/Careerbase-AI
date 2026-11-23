@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Production Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: educareer_postgres
+    environment:
+      POSTGRES_DB: career_platform
+      POSTGRES_USER: educareer_user
+      POSTGRES_PASSWORD: educareer_secure_password_2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U educareer_user -d career_platform"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # Redis Cache & Sessions
+  redis:
+    image: redis:7-alpine
+    container_name: educareer_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  # FastAPI Backend Service
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: educareer_backend
+    environment:
+      - DATABASE_URL=postgresql://educareer_user:educareer_secure_password_2026@postgres:5432/career_platform
+      - JWT_SECRET=super-secure-production-jwt-secret-key-2026-sdg4
+      - REDIS_URL=redis://redis:6379/0
+      - AI_API_KEY=${AI_API_KEY:-}
+      - BLOCKCHAIN_RPC_URL=http://blockchain:8545
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/blockchain_ledger.json:/app/blockchain_ledger.json
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # React + Vite Frontend Service
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: educareer_frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
